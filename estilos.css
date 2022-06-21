@@ -1,0 +1,122 @@
+img{
+    height:200px;
+    max-width:380px;
+}
+.form-group label{
+    font-size: medium;
+}
+p{
+    font-size: medium;
+    color: orangered;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.808);
+}
+textarea.form-control{
+    max-width:380px;
+    height:100px;
+    font-size: x-large;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.808);
+    background-color: transparent;
+}
+.divTempo{
+    font-size:22px;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+.errado{
+    color: red;
+}
+.modal h3,.modal h4{
+    color: royalblue;
+    border-bottom:1px solid currentColor;
+}
+.modal h4{
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    font-size:17px;
+    padding:5px 12px;
+}
+#cxTexto{
+    font-size:large;
+}
+.entrada h3{
+    font-size: large;
+}
+#listaSug{
+    font-size:15px;
+    color: white;
+    text-shadow: 0px 1px 1px rgba(185, 80, 80, 0.438);
+}
+#listaSug li{
+    padding-top: 9px;
+    cursor: default;
+}
+#listaSug li:hover{
+    color: cadetblue;
+}
+#modal-final h3,#modal-final h5{
+    border:none;
+    color: black;
+}
+.table-orange{
+    background-color: rgba(255, 68, 0, 0.658);
+}
+.text-orange{
+    color: rgba(255, 68, 0, 0.658);
+}
+#modal-final{
+    margin-top: 15vh;
+}
+#modal-final .media-body span[id]{
+    color: blueviolet;
+    float: right;
+}
+#modal-final h5{
+    font-weight: 700;
+}
+#modal-final h3{
+    color: darkgrey;
+    margin-bottom: 12px;
+    font-family: cursive;
+    font-weight: 800;
+}
+#modal-final h5::first-letter{
+    font-size:large;
+    text-decoration: underline;
+    font-family: cursive;
+}
+#modal-final caption{
+    text-align: center;
+    background-color: darkgrey;
+    color: white;
+    font-size: medium;
+}
+#modal-final thead{
+    font-size: small;
+}
+.img-rounded{
+    width:125px;
+    height:135px;
+}
+td[rowspan]{
+    padding-top: 7vh;
+    color:#000;
+    font-size: xx-large;
+    box-shadow: inset 5px 2px 43px gray;
+    text-shadow: 3px 0px 1px gray;
+}
+th{
+    color: white;
+}
+.divControla span{
+    color: black;
+    background-color: rgba(65, 105, 225, 0.38);
+    padding: 7px 9px;
+    font-size: x-large;
+    position: fixed;
+    right:0;
+}

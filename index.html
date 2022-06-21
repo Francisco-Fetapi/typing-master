@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Master</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap3+++4.css">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="./font-awesome/css/v4-shims.min.css">
+    <link rel="stylesheet" href="./font-awesome/css/fontawesome.min.css">
+</head>
+<body class="bg-dark">
+
+    <header class="text-center text-white">
+        <div class="divTempo ">
+            <span class="glyphicon glyphicon-time fa-lg"></span> <span id="time">00m:00s</span>
+        </div>
+        <div class="divControla ">
+            <span id="controla" class="glyphicon glyphicon-play fa-lg"></span>
+        </div>
+        <img src="logo.png" class="w-100">
+    </header>
+    <main class="p-3 text-white">
+        <h3 class="text-center text-primary">:::::Frase Proposta:::::</h3>
+        <p class="text-center" id="frase"></p>
+    </main>
+    <div class="form text-white text-left">
+        <div class="form-group">
+            <label for="texto" class="text-danger">Digite o texto acima::::::</label>
+            <textarea class="form-control text-primary" id="texto"></textarea>
+        </div>
+    </div>
+    <footer class="text-white text-left fixed-bottom bg-danger">
+            <span >Palavras Digitadas: <span id="plDigitadas"></span></span>
+            <span class="float-right">Palavras em falta: <span id="plFalta">0</span></span>
+    </footer>
+
+    <!-- Os modais do programa -->
+    <div class="modal" id="modalInicio">
+        <div class="modal-dialog">
+            <div class="modal-content text-white bg-dark">
+                <div class="modal-header">
+                    <h3 class="text-center m-0" style="border: none;">Informações Iniciais</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="form">
+                        <div class="form-group">
+                            <label for="nomeUS">Qual o seu nome?</label>
+                            <input type="text" class="form-control w-75" id="nomeUS">
+                        </div>
+                        <h4 class="text-center pb-3">Desejas que a frase seja:</h4>
+                        <div class="form-group">
+                            <input type="radio" name="esc" id="esc1" checked>
+                            <label for="esc1">Aleatória</label><br/>
+                            
+                            <input type="radio" name="esc" id="esc2">
+                            <label for="esc2">Personalizada</label>
+                        </div>
+                        <div class="entrada">
+                            <label for="cxTexto" class="label-control">Digite/Cole o texto aqui: </label>
+                            <textarea id="cxTexto" class="form-control" cols="30" rows="10"></textarea>
+
+                            <h3 class="text-center pb-3">Algumas Observações</h3>
+                            <ol id="listaSug">
+                                <li>Deixar um espaço depois de cada sinal de pontuação.</li>
+                                <li>Não inserir espaços desnecessários(mais de um)</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" id="btnComeca">Começar a Jogar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-final">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="user.png" class="img-rounded">
+                        </div>
+                        <div class="media-body">
+                            <h3 id="digitador"></h3>
+                            <h5>Digitou: <span id="qtdPalDigit"></span></h5>
+                            <h5>Durante: <span id="tempoPalDigit"></span></h5>
+                            <h5>Nivel: <span id="nivel"></span></h5>
+                            <br/>
+                        </div>
+                    </div>
+                    <table class="table table-bordered">
+                        <caption>Tabela de niveis</caption>
+                        <thead>
+                            <tr>
+                                <th>Quantidade de palavras</th>
+                                <th>Tempo maximo</th>
+                                <th>Nivel</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-success" id="tr1">
+                                <td rowspan="4" class="bg-white border-0 text-center"></td>
+                                <td></td>
+                                <td>Profissional</td>
+                            </tr>
+                            <tr class="table-orange" id="tr2">
+                                <td></td>
+                                <td>Normal</td>
+                            </tr>
+                            <tr class="table-warning" id="tr3">
+                                <td></td>
+                                <td>Amador</td>
+                            </tr>
+                            <tr class="table-danger" id="tr4">
+                                <td></td>
+                                <td>Principiante</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../bootstrap/js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

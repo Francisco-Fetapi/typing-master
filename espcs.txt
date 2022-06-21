@@ -1,0 +1,7 @@
+﻿﻿Em toda qtd de palavras tem de ter nivel.(classificacao)
+
+Mais tarde----info sobre o numero de teclas/segundo.
+
+o programa tem de ter um botao de pausa, durante a digitacao.
+
+Mais tarde----Determinar o sexo do usuario atraves da terminologia do nome, 
