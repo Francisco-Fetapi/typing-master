@@ -10,3 +10,7 @@ Este projeto foi criado em `maio de 2020`, numa época em que eu estava a dar os
 O funcionamento desse jogo é muito simples de entender: Inicialmente Aparece uma aba pedindo algumas informações,como o seu nome e a maneira como a frase deve ser gerada(Aleatoria/Personalizada).
 
 Depois de clicar em `Começar a Jogar`, o jogo irá começar, será exibida uma frase na tela, um campo de texto e diversos outros componentes serão exibidos e a missão é digitar na caixa de texto, a frase que foi renderizada no menor tempo possivel, ao final, com base no tempo decorrido até a última palavra ser digitada, uma tabela de pontuações será exibida e o sistema dará um feedback sobre qual é o seu nível.
+
+##
+
+<a href="https://francisco-fetapi.github.io/typing-master">Clique aqui se desejas ver o projeto rodando</a>
