@@ -1,4 +1,4 @@
-# Typing Mater
+# Typing Master
 
 Este projeto foi criado em `maio de 2020`, numa época em que eu estava a dar os meus primeiros passos no **mundo do desenvolvimento**, foi inspirado num dos mini jogos do **Typing Master**, um aplicativo com diversas funcionalidades que podem te tornar um astro na arte de digitar pelo teclado.
 
