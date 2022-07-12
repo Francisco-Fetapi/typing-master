@@ -1,4 +1,11 @@
 # Typing Master
+<p align="center">
+<a href="https://github.com/Francisco-Fetapi/typing-master/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Francisco-Fetapi/typing-master?style=plastic"></a>
+<a href="https://github.com/Francisco-Fetapi/typing-master"><img alt="GitHub license" src="https://img.shields.io/badge/Exercise-For%20trainning-orange"></a>
+<a href="https://github.com/Francisco-Fetapi/typing-master/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Francisco-Fetapi/typing-master?style=plastic"></a>
+<a href="https://github.com/Francisco-Fetapi/typing-master/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Francisco-Fetapi/typing-master?style=plastic"></a>
+<a href="https://github.com/Francisco-Fetapi/typing-master"><img alt="GitHub license" src="https://img.shields.io/github/license/Francisco-Fetapi/typing-master?style=plastic"></a>
+</p>
 
 Este projeto foi criado em `maio de 2020`, numa época em que eu estava a dar os meus primeiros passos no **mundo do desenvolvimento**, foi inspirado num dos mini jogos do **Typing Master**, um aplicativo com diversas funcionalidades que podem te tornar um astro na arte de digitar pelo teclado.
 
