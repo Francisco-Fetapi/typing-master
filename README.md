@@ -9,7 +9,7 @@
 
 Este projeto foi criado em `maio de 2020`, numa época em que eu estava a dar os meus primeiros passos no **mundo do desenvolvimento**, foi inspirado num dos mini jogos do [Typing Master](https://typingmaster.br.uptodown.com/windows), um aplicativo com diversas funcionalidades que podem te tornar um astro na arte de digitar pelo teclado.
 
-![typing-master](https://user-images.githubusercontent.com/74926014/180440148-ef759559-5075-423e-8b63-74c8d7053f6b.gif)
+![typing-master](https://user-images.githubusercontent.com/74926014/181217868-57c9bdd7-1ee4-44bb-8098-1ae45ae7141a.gif)
 
 
 # Como funciona
